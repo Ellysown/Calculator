@@ -189,32 +189,32 @@ namespace WindowsFormsApp1
 
         private void btnsin_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "sin";
+            txtboxDisplay.Text = txtboxDisplay.Text + "sin(";
         }
 
         private void btncos_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "cos";
+            txtboxDisplay.Text = txtboxDisplay.Text + "cos(";
         }
 
         private void btntan_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "tan";
+            txtboxDisplay.Text = txtboxDisplay.Text + "tan(";
         }
 
         private void btnsin1_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "sin-1";
+            txtboxDisplay.Text = txtboxDisplay.Text + "arcsin";
         }
 
         private void btncos1_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "cos-1";
+            txtboxDisplay.Text = txtboxDisplay.Text + "arcos";
         }
 
         private void btntan1_Click(object sender, EventArgs e)
         {
-            txtboxDisplay.Text = txtboxDisplay.Text + "tan-1";
+            txtboxDisplay.Text = txtboxDisplay.Text + "arctan";
         }
 
         private void btnpi_Click(object sender, EventArgs e)
